@@ -1,14 +1,13 @@
-import HeroSection from './components/HeroSection.jsx'; // path ঠিকমতো ইউজ
-// করা হয়েছে কিনা তা নিশ্চিত করুন
+// app/page.js
 
-// Importing the HeroSection component from the components directory
-// to be used in the main page of the application.
-export default function HomePage() {
+export default function Home() {
   return (
-    <main>
-      <HeroSection />
+    <main className="p-6">
+      <h1 className="text-3xl font-bold text-gray-800">
+        Welcome to My First Next.js App!
+      </h1>
+      <p className="mt-2 text-gray-600">This is my homepage built with love 💙</p>
+      <p className="mt-2 text-gray-600">This is my homepage built with love 💙</p>
     </main>
   );
 }
-
-
